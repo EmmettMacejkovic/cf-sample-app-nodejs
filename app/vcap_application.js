@@ -1,4 +1,4 @@
-// app-specific environment variables
+//*app-specific environment variables
 module.exports = {
   get_app_name: function () {
     if ( process.env.VCAP_APPLICATION) {
@@ -42,3 +42,4 @@ module.exports = {
     }
   }
 }
+ 
